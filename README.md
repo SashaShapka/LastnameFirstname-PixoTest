@@ -20,6 +20,7 @@ user authorization, filtering capabilities, and basic statistics (e.g., most fre
 - Product popularity statistics
 - Redis caching
 - Rate limiting (per-user)
+- Some endpoints are only available when you have the Admin role: get_statistic, delete_products, update_products, create_products
 
 ---
 
