@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.log
+
+# Environment
+.env
+.venv/
+venv/
+env/
+
+
+# MacOS / Windows
+.DS_Store
+Thumbs.db
+
+# PyCharm
+.idea/
+
+# Pydantic cache
+*.mypy_cache/
+*.pytest_cache/
+
+# Elasticsearch certs (якщо не в git)
+*.crt
+*.key
+
+# Redis cache dumps
+dump.rdb
+
+
+# Coverage
+htmlcov/
+coverage.xml
+.cache
+
+# Docker
+*.pid
